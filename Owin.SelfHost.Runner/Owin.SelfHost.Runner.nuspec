@@ -1,0 +1,23 @@
+ckage >
+  <metadata>
+    <id>Owin.SelfHost.Runner</id>
+    <version>$version$</version>
+    <title>Owin.SelfHost.Runner</title>
+    <authors>Julien Pavon</authors>
+    <owners>Julien Pavon</owners>
+    <licenseUrl>https://github.com/JulienPavon/Owin.SelfHost.Runner/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JulienPavon/Owin.SelfHost.Runner</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Owin SelfHost Runner</description>
+    <copyright>Copyright 2016 JulienPavon</copyright>
+    <tags>Owin SelfHost</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin.Hosting" version="3.0.1" />
+      <dependency id="Mono.Options" version="4.4.0.0" />
+      <dependency id="Mono.Posix" version="4.0.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+  	<file src="bin\Release\Owin.SelfHost.Runner.dll" target="lib\net45" />
+  </files>
+</package>
