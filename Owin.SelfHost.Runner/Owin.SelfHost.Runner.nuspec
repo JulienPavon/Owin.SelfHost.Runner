@@ -1,4 +1,5 @@
-ckage >
+<?xml version="1.0"?>
+<package>
   <metadata>
     <id>Owin.SelfHost.Runner</id>
     <version>$version$</version>
